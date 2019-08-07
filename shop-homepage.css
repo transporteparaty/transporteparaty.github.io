@@ -1,0 +1,228 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.style {
+  font-family: 'Alfa Slab One', cursive !important;
+}
+
+.ma { 
+  text-transform: none !important;
+  color: rgb(0, 119, 255);
+  cursor: default;
+}
+
+.my-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.my-fixed-top {
+  left: 0;
+  position: fixed !important;
+  padding-top: 0;
+  right: 0;
+  top: 0;
+  z-index: 1030;
+}
+
+.my-ml-auto,
+.my-mx-auto {
+  margin-left: auto !important;
+}
+
+/*--------------------------------------------------
+          CONTAINER
+---------------------------------------------------*/
+
+.my-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .my-container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .my-container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .my-container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .my-container {
+    max-width: 1140px;
+  }
+}
+
+.my-container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/*--------------------------------------------------
+          NAVBAR
+---------------------------------------------------*/
+
+.my-nav-top-bar{
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  -ms-flex-wrap: wrap;
+  align-items: center;
+  background-color: #E64A19 !important;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.my-nav-top-bar > .my-container,
+.my-nav-top-bar > .my-container-fluid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.my-nav-top-bar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.my-nav-top-bar-brand:hover, .my-nav-top-bar-brand:focus {
+  text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-expand-lg > .my-container,
+  .navbar-expand-lg > .my-container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .navbar-expand-lg .my-navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .navbar-expand-lg .my-navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .navbar-expand-lg .my-navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-lg > .my-container,
+  .navbar-expand-lg > .my-container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+}
+
+.navbar-dark .my-nav-top-bar-brand {
+  color: #fff;
+}
+.navbar-dark .my-nav-top-bar-brand:hover, .navbar-dark .my-nav-top-bar-brand:focus {
+  color: #fff;
+}
+.navbar-dark .my-navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbar-dark .my-navbar-nav .nav-link:hover, .navbar-dark .my-navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.75);
+}
+.navbar-dark .my-navbar-nav .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.25);
+}
+.navbar-dark .my-navbar-nav .show > .nav-link,
+.navbar-dark .my-navbar-nav .active > .nav-link,
+.navbar-dark .my-navbar-nav .nav-link.show,
+.navbar-dark .my-navbar-nav .nav-link.active {
+  color: #fff;
+}
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbar-dark .navbar-text a {
+  color: #fff;
+}
+.navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+a.bg-dark:hover, a.bg-dark:focus,
+button.bg-dark:hover,
+button.bg-dark:focus {
+  background-color: #1d2124 !important;
+}
+
+
+
+/*--------------------------------------------------
+          FOOTER
+---------------------------------------------------*/
+
+.my-footer{
+  background-color: #212121 !important
+}
